@@ -1,0 +1,16 @@
+4 12
+port0 port
+railhub0 rail-hub
+dc0 dist-center
+store-0-0 store
+port0 railhub0 3
+port0 store-0-0 1
+port0 dc0 2
+railhub0 port0 5
+railhub0 store-0-0 3
+railhub0 dc0 4
+store-0-0 port0 3
+store-0-0 railhub0 2
+store-0-0 dc0 5
+dc0 port0 4
+dc0 railhub0 2
